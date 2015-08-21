@@ -14,8 +14,10 @@ import java.util.Map;
  */
 public class Application
 {
-
+    /* Error Message Builder */
     private static ErrorMessageBuilder errorMessageBuilder = new ErrorMessageBuilder();
+    
+    /* Connections map */
     private static Map<String, Connection> connections = new HashMap<String, Connection>();
 
 
